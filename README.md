@@ -51,7 +51,7 @@ _Observação para rodar o projeto baixado:_
 
 ---
 
-#### Deploied in Netlify
+#### Deployed in Netlify
 
 Online pela [Netlify] em [dioshopping-app.netlify.app](https://dioshopping-app.netlify.app)  
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f2dcb51f-4f29-4360-8463-d8a60f6265a4/deploy-status)](https://app.netlify.com/sites/dioshopping-app/deploys)

@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Integrando um Backend em Node.js com um Frontend em React para um E-commerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Digital Innovation One
+### Bootcamp "Inter Frontend Developer"
 
-## Available Scripts
+---
+# APP Frontend em React
 
-In the project directory, you can run:
+Projeto desenvolvido com instruções de [Nathally Souza] na trilha de estudo do Bootcamp "Inter Frontend Developer" da [dio.me].
 
-### `yarn start`
+<p align="center">
+	<img alt="Repository language count" src="https://img.shields.io/github/languages/count/didifive/dioshopping">
+    <a href="https://github.com/nathyts/">
+		<img alt="Made by Nathally" src="https://img.shields.io/badge/made%20by-Nathally-blue">
+	</a>
+	<a href="https://www.linkedin.com/in/luis-carlos-zancanela/">
+		<img alt="Update by Didi" src="https://img.shields.io/badge/update%20by-Didi-green">
+	</a>	
+    <a href="https://github.com/didifive/dioshopping/commits/master">
+        <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/didifive/dioshopping?color=blue">
+    </a>
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=blue">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+    <a href="https://pt-br.reactjs.org/">
+        <img alt="Reactjs" src="https://img.shields.io/static/v1?color=lightblue&label=Dev&message=ReactJS&style=for-the-badge&logo=React">
+        </a>
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Introduction">
+        <img alt="JavaScript" src="https://img.shields.io/static/v1?color=yellow&label=Dev&message=JavaScript&style=for-the-badge&logo=JavaScript">
+    </a>
+    <a href="https://getbootstrap.com/">
+        <img alt="Bootstrap" src="https://img.shields.io/static/v1?color=blueviolet&label=Dev&message=Bootstrap&style=for-the-badge&logo=Bootstrap">
+    </a>
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Link da base utilizada neste projeto: [nathyts/dioshopping].
 
-### `yarn test`
+Abaixo seguem modificações feitas em relação ao projeto base:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* O arquivo `contato.js` foi modificado para `mensagens.js`, nome da função, link e rota foram alterados para funcionar corretamente;
+* Adicionado o campo "nome" (em referência ao "name" criado no backend) e realizado os ajustes em `mensagens.js`;
+* Estilização do `Header` com uso do Bootstrap;
+* Adicionado botão para apagar mensagem;
+* Adicionado o módulo `validator` para poder fazer validação de campos.
 
-### `yarn build`
+_Observação para rodar o projeto baixado:_
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* _Para instalar os arquivos de dependências do projeto, basta rodar o comando `yarn install`;_
+* _Para testar a integração, basta navegar até a página "Depoimentos", a fonte está em `Pages/mensagens.js`._
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Deploied in Netlify
 
-### `yarn eject`
+Online pela [Netlify] em [dioshopping-app.netlify.app](https://dioshopping-app.netlify.app)  
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f2dcb51f-4f29-4360-8463-d8a60f6265a4/deploy-status)](https://app.netlify.com/sites/dioshopping-app/deploys)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Backend em Node.js para este projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Repositório: [didifive/api-dioshopping]
+* Link da API online: [api-dioshopping-didi.herokuapp.com/](https://api-dioshopping-didi.herokuapp.com/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
+#### Links Interessantes
 
-## Learn More
+* [Netlify]
+* [Heroku]
+* [ReactJS]
+* [JavaScript]
+* [Bootstrap]
+* [Material UI]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[dio.me]: https://dio.me/
+[Nathally Souza]: https://github.com/nathyts/
+[nathyts/dioshopping]: https://github.com/nathyts/dioshopping
+[didifive/api-dioshopping]: https://github.com/didifive/api-dioshopping
+[didifive/dioshopping]: https://github.com/didifive/dioshopping
+[Netlify]:https://www.netlify.com/
+[Heroku]: https://www.heroku.com/
+[ReactJS]: https://pt-br.reactjs.org/
+[JavaScript]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Introduction
+[Bootstrap]: https://getbootstrap.com/
+[Material UI]: https://v4.mui.com/pt/

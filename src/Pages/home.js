@@ -38,6 +38,7 @@ const HomePage = () => {
     let count = { };
 
     for(let i = 0; i < arrayCategory.length; i++){
+        // eslint-disable-next-line no-lone-blocks
         {
             let key = arrayCategory[i];
             count[key] = (count[key] ? count[key] + 1 : 1)

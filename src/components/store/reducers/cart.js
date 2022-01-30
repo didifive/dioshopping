@@ -20,7 +20,7 @@ export default function cart(state = INITIAL_STATE, action){
                 state.Cart.push(item);
             } else {
                 let check = false;
-                state.Cart.map((item, key) => {
+                state.Cart.forEach((item, key) => {
                     if(item.id === action.product.id_product){
                         state.Cart[key].quantity++;
                         check = true;
@@ -70,5 +70,4 @@ export default function cart(state = INITIAL_STATE, action){
         default:
             return state;
     }
-    return state
 }
